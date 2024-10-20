@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMXizBHFfrw9dC4gPfF34WtbBq+K2hQ6H/yg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .endpoint {
+            margin: 10px 0;
+            padding: 15px;
+            background: #e7f3fe;
+            border-left: 4px solid #2196F3;
+        }
+        .endpoint h3 {
+            margin: 0;
+        }
+        .endpoint p {
+            margin: 5px 0 0 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Rule Engine API</h1>
+        <p>This API allows you to create, combine, and evaluate rules.</p>
+        
+        <div class="endpoint">
+            <h3>Available Endpoints:</h3>
+            <ul>
+                <li>
+                    <strong>Create Rule:</strong> <a href="/create_rule">/create_rule</a>
+                    <p>Create a new rule by providing a rule string.</p>
+                </li>
+                <li>
+                    <strong>Combine Rules:</strong> <a href="/combine_rules">/combine_rules</a>
+                    <p>Combine multiple rules into a single rule.</p>
+                </li>
+                <li>
+                    <strong>Evaluate Rule:</strong> <a href="/evaluate_rule">/evaluate_rule</a>
+                    <p>Evaluate a rule against provided data to get the result.</p>
+                </li>
+                <li>
+                    <strong>Health Check:</strong> <a href="/health">/health</a>
+                    <p>Check the health status of the API.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>@Piyush's Rule Engine 2024 </p>
+    </footer>
+</body>
+</html>
