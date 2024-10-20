@@ -64,7 +64,7 @@ A comprehensive API for creating, combining, and evaluating rules. This applicat
    python app.py
    ```
 
-### Docker Installation (Optional)
+### Docker Installation 
 
 1. **Build the Docker image:**
    ```bash
@@ -78,12 +78,10 @@ A comprehensive API for creating, combining, and evaluating rules. This applicat
 
 ## Usage
 
-After running the app, open your browser and go to `http://127.0.0.1:8080` to access the Rule Engine API. Follow the prompts to create, combine, and evaluate rules.
+After running the app, open your browser and go to `http://127.0.0.0:8080` to access the Rule Engine API. Follow the prompts to create, combine, and evaluate rules.
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
